@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="85.793">
+<testcase classname="US1005_Create_an_Account_Global_Parameters" name="TC_001_Testing_Create_an_Account_On_Global" time="25.24">
+<system-out><![CDATA[Given user is on the global trader page.....................................passed
+And user click on Seller Join Now  Button...................................passed
+And user click on Company Seller box........................................passed
+And user type a Company Name "emre".........................................passed
+And user type a Company  Mobile "1111111115"................................passed
+And user type an Company Address "kasfdl"...................................passed
+And user type a Name "aaa"..................................................passed
+And user type an Email "abcdea@gmail.com"...................................passed
+And user type a Sub Domain "dgfgfd".........................................passed
+And user type a Mobile Number "4211141111"..................................passed
+And user choose a Country...................................................passed
+And user type a State "sadf"................................................passed
+And user type a City "aa"...................................................passed
+And user type an Address "dd"...............................................passed
+And user type an Postal Code "12345"........................................passed
+And user choose a Categories................................................passed
+And user type a Password "12313"............................................passed
+And user click on Registration Box..........................................passed
+And user get message"Thank you to join our team. You are Registered Successfully.".passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005_Create_an_Account_Global_Parameters" name="TC_001_Testing_Create_an_Account_On_Global_2" time="14.934">
+<failure message="unknown error: failed to change window state to 'normal', current state is 'maximized'&#10;  (Session info: chrome=86.0.4240.75)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'WINDOWSPC', ip: '192.168.178.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8140bde8671a5818759703ff29f925bf" type="org.openqa.selenium.WebDriverException"><![CDATA[Given user is on the global trader page.....................................passed
+And user click on Seller Join Now  Button...................................passed
+And user click on Company Seller box........................................passed
+And user type a Company Name "emre".........................................passed
+And user type a Company  Mobile "1111111114"................................passed
+And user type an Company Address "kasfdl"...................................passed
+And user type a Name "aaa"..................................................passed
+And user type an Email "abcdes@gmail.com"...................................passed
+And user type a Sub Domain "dgfgfd".........................................passed
+And user type a Mobile Number "4211151111"..................................passed
+And user choose a Country...................................................passed
+And user type a State "sadf"................................................passed
+And user type a City "aa"...................................................passed
+And user type an Address "dd"...............................................passed
+And user type an Postal Code "12345"........................................passed
+And user choose a Categories................................................passed
+And user type a Password "12313"............................................passed
+And user click on Registration Box..........................................passed
+And user get message"Thank you to join our team. You are Registered Successfully.".passed
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WINDOWSPC', ip: '192.168.178.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8140bde8671a5818759703ff29f925bf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at utilities.Driver.getDriver(Driver.java:47)
+	at stepdefinitions.Hooks.tearDown(Hooks.java:19)
+]]></failure>
+</testcase>
+<testcase classname="US1005_Create_an_Account_Global_Parameters" name="TC_001_Testing_Create_an_Account_On_Global_3" time="22.309">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),'Thank you to join our team. You are Registered Suc')]&quot;}&#10;  (Session info: chrome=86.0.4240.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'WINDOWSPC', ip: '192.168.178.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8140bde8671a5818759703ff29f925bf&#10;*** Element info: {Using=xpath, value=//p[contains(text(),'Thank you to join our team. You are Registered Suc')]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on the global trader page.....................................passed
+And user click on Seller Join Now  Button...................................passed
+And user click on Company Seller box........................................passed
+And user type a Company Name "emre".........................................passed
+And user type a Company  Mobile "1111111115"................................passed
+And user type an Company Address "kasfdl"...................................passed
+And user type a Name "aaa"..................................................passed
+And user type an Email "abcdfe@gmail.com"...................................passed
+And user type a Sub Domain "dgfgfd".........................................passed
+And user type a Mobile Number "4211161111"..................................passed
+And user choose a Country...................................................passed
+And user type a State "sadf"................................................passed
+And user type a City "aa"...................................................passed
+And user type an Address "dd"...............................................passed
+And user type an Postal Code "12345"........................................passed
+And user choose a Categories................................................passed
+And user type a Password "12313"............................................passed
+And user click on Registration Box..........................................passed
+And user get message"Thank you to join our team. You are Registered Successfully.".failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Thank you to join our team. You are Registered Suc')]"}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WINDOWSPC', ip: '192.168.178.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8140bde8671a5818759703ff29f925bf
+*** Element info: {Using=xpath, value=//p[contains(text(),'Thank you to join our team. You are Registered Suc')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.getText(Unknown Source)
+	at stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully(Global_Trader_Create_An_Account.java:120)
+	at ✽.user get message"Thank you to join our team. You are Registered Successfully."(file:///C:/Users/Administrator/IdeaProjects/mycucumberframework3/src/test/resources/features/US1005_Create_an_Account_Global_Scenerio_Outline.feature:24)
+]]></failure>
+</testcase>
+<testcase classname="US1005_Create_an_Account_Global_Parameters" name="TC_001_Testing_Create_an_Account_On_Global_4" time="22.466">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),'Thank you to join our team. You are Registered Suc')]&quot;}&#10;  (Session info: chrome=86.0.4240.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'WINDOWSPC', ip: '192.168.178.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8140bde8671a5818759703ff29f925bf&#10;*** Element info: {Using=xpath, value=//p[contains(text(),'Thank you to join our team. You are Registered Suc')]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on the global trader page.....................................passed
+And user click on Seller Join Now  Button...................................passed
+And user click on Company Seller box........................................passed
+And user type a Company Name "emre".........................................passed
+And user type a Company  Mobile "1111111115"................................passed
+And user type an Company Address "kasfdl"...................................passed
+And user type a Name "aaa"..................................................passed
+And user type an Email "abcdfe4@gmail.com"..................................passed
+And user type a Sub Domain "dgfgfd".........................................passed
+And user type a Mobile Number "4211141111"..................................passed
+And user choose a Country...................................................passed
+And user type a State "sadf"................................................passed
+And user type a City "aa"...................................................passed
+And user type an Address "dd"...............................................passed
+And user type an Postal Code "12345"........................................passed
+And user choose a Categories................................................passed
+And user type a Password "12313"............................................passed
+And user click on Registration Box..........................................passed
+And user get message"Thank you to join our team. You are Registered Successfully.".failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Thank you to join our team. You are Registered Suc')]"}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WINDOWSPC', ip: '192.168.178.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8140bde8671a5818759703ff29f925bf
+*** Element info: {Using=xpath, value=//p[contains(text(),'Thank you to join our team. You are Registered Suc')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.getText(Unknown Source)
+	at stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully(Global_Trader_Create_An_Account.java:120)
+	at ✽.user get message"Thank you to join our team. You are Registered Successfully."(file:///C:/Users/Administrator/IdeaProjects/mycucumberframework3/src/test/resources/features/US1005_Create_an_Account_Global_Scenerio_Outline.feature:24)
+]]></failure>
+</testcase>
+</testsuite>
