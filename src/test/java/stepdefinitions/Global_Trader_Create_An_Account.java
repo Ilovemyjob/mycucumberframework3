@@ -8,6 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 import java.security.Key;
+import java.util.concurrent.TimeUnit;
 
 public class Global_Trader_Create_An_Account {
 
@@ -16,6 +17,8 @@ public class Global_Trader_Create_An_Account {
     @Given("user is on the global trader page")
     public void user_is_on_the_global_trader_page() {
         Driver.getDriver().get(ConfigReader.getProperty("global"));
+        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     @Given("user click on Seller Join Now  Button")

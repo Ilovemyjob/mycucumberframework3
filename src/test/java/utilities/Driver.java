@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 //WE NEED DRIVER CAUSE WE WANT TO HAVE A SINGLE driver INSTANCE
 //We are making singleton design pattern
 public class Driver {
+    //buradan constructorla geleni getdrive a yonlendiriyoruz
     private Driver(){
         //we don't create an instance/ object.
     }

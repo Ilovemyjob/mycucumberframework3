@@ -36,10 +36,9 @@ public class MoviesStepDef {
         data.put("genres" , "");
 
 
-
         response = given().accept(ContentType.JSON).contentType(ContentType.JSON).when().body(data2).post(endpoint);
 
-        // to make dynamic
+       //  to make dynamic
         response.prettyPrint();
     }
 

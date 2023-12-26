@@ -20,6 +20,8 @@ public class Hooks {
         if (scenario.isFailed()) {
             scenario.attach(screenshot, "image/png","screenshots");
         }
+        System.out.println("this is after method");
         Driver.closeDriver();
+        System.out.println("this is after method");
     }
 }

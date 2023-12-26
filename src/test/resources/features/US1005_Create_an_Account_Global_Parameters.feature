@@ -1,6 +1,6 @@
 
 Feature:US1005_Create_an_Account_Global_Parameters
- ~ @hooks
+  @hooks
   Scenario:TC_001_Testing_Create_an_Account_On_Global
     Given user is on the global trader page
     And user click on Seller Join Now  Button

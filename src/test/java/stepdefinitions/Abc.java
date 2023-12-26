@@ -16,4 +16,16 @@ public class Abc {
 
 
     }
-}
+
+    @When("the gets <dataTable>")
+    public void theGetsDataTable(List<String> dataTable) {
+
+        for (String city :
+                dataTable) {
+            System.out.println(city);
+        }
+    }
+
+
+    }
+

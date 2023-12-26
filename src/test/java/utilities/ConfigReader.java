@@ -2,7 +2,7 @@ package utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
-public class ConfigReader {
+public class  ConfigReader {
     //This class will READ THE DATA FROM configuration.properties file!!!!!!!
     //create a properties instance. Data type=Properties, instance name =properties
     private static Properties properties;
@@ -27,8 +27,8 @@ public class ConfigReader {
         return properties.getProperty(key);
     }
 //    TESTING IF OUR LOGIC WORKS
-//    public static void main(String[] args) {
-//        System.out.println(properties.getProperty("url"));
-//    }
+    public static void main(String[] args) {
+        System.out.println(properties.getProperty("url"));
+    }
 }
 

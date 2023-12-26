@@ -3,1355 +3,183 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-17T07:37:22.965Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 27,
+        "start_timestamp": "2022-02-18T19:41:12.030Z",
+        "line": 4,
         "name": "TC_001_Testing_Create_an_Account_On_Global",
         "description": "",
-        "id": "us1005-create-an-account-global-parameters;tc-001-testing-create-an-account-on-global;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 2638000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
+        "id": "us1005-create-an-account-global-parameters;tc-001-testing-create-an-account-on-global",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10384000000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
+            "line": 5,
             "name": "user is on the global trader page",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_is_on_the_global_trader_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3725000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user click on Seller Join Now  Button",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Seller_Join_Now_Button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 836000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click on Company Seller box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Company_Seller_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1013000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user type a Company Name \"emre\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"emre\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Name(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 966000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user type a Company  Mobile \"1111111115\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1111111115\"",
-                  "offset": 28
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Mobile(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 342000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user type an Company Address \"kasfdl\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"kasfdl\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Company_Address(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 284000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user type a Name \"aaa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aaa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Name(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 306000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user type an Email \"abcdea@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"abcdea@gmail.com\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Email(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 246000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user type a Sub Domain \"dgfgfd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dgfgfd\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Sub_Domain(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 194000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user type a Mobile Number \"4211141111\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"4211141111\"",
-                  "offset": 26
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Mobile_Number(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 494000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user choose a Country",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Country()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 270000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user type a State \"sadf\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sadf\"",
-                  "offset": 18
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_State(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 300000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "user type a City \"aa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_City(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 221000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user type an Address \"dd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dd\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Address(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user type an Postal Code \"12345\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12345\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Postal_Code(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 358000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user choose a Categories",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Categories()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 231000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user type a Password \"12313\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12313\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1885000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "user click on Registration Box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Registration_Box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 165000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "user get message\"Thank you to join our team. You are Registered Successfully.\"",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@hooks"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-10-17T07:37:48.225Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 28,
-        "name": "TC_001_Testing_Create_an_Account_On_Global",
-        "description": "",
-        "id": "us1005-create-an-account-global-parameters;tc-001-testing-create-an-account-on-global;;3",
-        "after": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: failed to change window state to \u0027normal\u0027, current state is \u0027maximized\u0027\n  (Session info: chrome\u003d86.0.4240.75)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027WINDOWSPC\u0027, ip: \u0027192.168.178.20\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8140bde8671a5818759703ff29f925bf\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat utilities.Driver.getDriver(Driver.java:47)\r\n\tat stepdefinitions.Hooks.tearDown(Hooks.java:19)\r\n",
-              "duration": 303000000,
-              "status": "failed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7163000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
-            "name": "user is on the global trader page",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_is_on_the_global_trader_page()"
-            },
-            "keyword": "Given "
+            "name": "user click on Seller Join Now  Button",
+            "match": {},
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1568000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "user click on Seller Join Now  Button",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Seller_Join_Now_Button()"
-            },
+            "name": "user click on Company Seller box",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 179000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 8,
-            "name": "user click on Company Seller box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Company_Seller_box()"
-            },
+            "name": "user type a Company Name \"emre\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 298000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
-            "name": "user type a Company Name \"emre\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"emre\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Name(java.lang.String)"
-            },
+            "name": "user type a Company  Mobile \"1111111111\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 271000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 10,
-            "name": "user type a Company  Mobile \"1111111114\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1111111114\"",
-                  "offset": 28
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Mobile(java.lang.String)"
-            },
+            "name": "user type an Company Address \"kasfdl\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 180000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 11,
-            "name": "user type an Company Address \"kasfdl\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"kasfdl\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Company_Address(java.lang.String)"
-            },
+            "name": "user type a Name \"sadf\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 180000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 12,
-            "name": "user type a Name \"aaa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aaa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Name(java.lang.String)"
-            },
+            "name": "user type an Email \"abcd@gmail.com\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 212000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 13,
-            "name": "user type an Email \"abcdes@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"abcdes@gmail.com\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Email(java.lang.String)"
-            },
+            "name": "user type a Sub Domain \"dgfgfd\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 218000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 14,
-            "name": "user type a Sub Domain \"dgfgfd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dgfgfd\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Sub_Domain(java.lang.String)"
-            },
+            "name": "user type a Mobile Number \"1211111111\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 237000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 15,
-            "name": "user type a Mobile Number \"4211151111\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"4211151111\"",
-                  "offset": 26
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Mobile_Number(java.lang.String)"
-            },
+            "name": "user choose a Country",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 322000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 16,
-            "name": "user choose a Country",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Country()"
-            },
+            "name": "user type a State \"sadf\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 235000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 17,
-            "name": "user type a State \"sadf\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sadf\"",
-                  "offset": 18
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_State(java.lang.String)"
-            },
+            "name": "user type a City \"sadf\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 197000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 18,
-            "name": "user type a City \"aa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_City(java.lang.String)"
-            },
+            "name": "user type an Address \"afsda\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 215000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 19,
-            "name": "user type an Address \"dd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dd\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Address(java.lang.String)"
-            },
+            "name": "user type an Postal Code \"12345\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 175000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 20,
-            "name": "user type an Postal Code \"12345\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12345\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Postal_Code(java.lang.String)"
-            },
+            "name": "user choose a Categories",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 249000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 21,
-            "name": "user choose a Categories",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Categories()"
-            },
+            "name": "user type a Password \"12313\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 189000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 22,
-            "name": "user type a Password \"12313\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12313\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Password(java.lang.String)"
-            },
+            "name": "user click on Registration Box",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2347000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 23,
-            "name": "user click on Registration Box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Registration_Box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 183000000,
-              "status": "passed"
-            },
-            "line": 24,
             "name": "user get message\"Thank you to join our team. You are Registered Successfully.\"",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@hooks"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-10-17T07:38:03.206Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 29,
-        "name": "TC_001_Testing_Create_an_Account_On_Global",
-        "description": "",
-        "id": "us1005-create-an-account-global-parameters;tc-001-testing-create-an-account-on-global;;4",
-        "after": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: failed to change window state to \u0027normal\u0027, current state is \u0027maximized\u0027\n  (Session info: chrome\u003d86.0.4240.75)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027WINDOWSPC\u0027, ip: \u0027192.168.178.20\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8140bde8671a5818759703ff29f925bf\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat utilities.Driver.getDriver(Driver.java:47)\r\n\tat stepdefinitions.Hooks.tearDown(Hooks.java:19)\r\n",
-              "duration": 231000000,
-              "status": "failed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1345000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the global trader page",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_is_on_the_global_trader_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2278000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user click on Seller Join Now  Button",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Seller_Join_Now_Button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 185000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click on Company Seller box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Company_Seller_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 164000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user type a Company Name \"emre\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"emre\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Name(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user type a Company  Mobile \"1111111115\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1111111115\"",
-                  "offset": 28
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Mobile(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 427000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user type an Company Address \"kasfdl\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"kasfdl\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Company_Address(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 450000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user type a Name \"aaa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aaa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Name(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 297000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user type an Email \"abcdfe@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"abcdfe@gmail.com\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Email(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 221000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user type a Sub Domain \"dgfgfd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dgfgfd\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Sub_Domain(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 113000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user type a Mobile Number \"4211161111\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"4211161111\"",
-                  "offset": 26
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Mobile_Number(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 221000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user choose a Country",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Country()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 195000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user type a State \"sadf\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sadf\"",
-                  "offset": 18
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_State(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 110000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "user type a City \"aa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_City(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 133000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user type an Address \"dd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dd\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Address(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 166000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user type an Postal Code \"12345\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12345\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Postal_Code(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 162000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user choose a Categories",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Categories()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 109000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user type a Password \"12313\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12313\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 316000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "user click on Registration Box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Registration_Box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(text(),\u0027Thank you to join our team. You are Registered Suc\u0027)]\"}\n  (Session info: chrome\u003d86.0.4240.75)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027WINDOWSPC\u0027, ip: \u0027192.168.178.20\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8140bde8671a5818759703ff29f925bf\n*** Element info: {Using\u003dxpath, value\u003d//p[contains(text(),\u0027Thank you to join our team. You are Registered Suc\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully(Global_Trader_Create_An_Account.java:120)\r\n\tat ✽.user get message\"Thank you to join our team. You are Registered Successfully.\"(file:///C:/Users/Administrator/IdeaProjects/mycucumberframework3/src/test/resources/features/US1005_Create_an_Account_Global_Scenerio_Outline.feature:24)\r\n",
-              "duration": 15018000000,
-              "status": "failed"
-            },
-            "line": 24,
-            "name": "user get message\"Thank you to join our team. You are Registered Successfully.\"",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@hooks"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-10-17T07:38:25.555Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 30,
-        "name": "TC_001_Testing_Create_an_Account_On_Global",
-        "description": "",
-        "id": "us1005-create-an-account-global-parameters;tc-001-testing-create-an-account-on-global;;5",
-        "after": [
-          {
-            "embeddings": [
-              {
-                "data": "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zXsY6DYqEonw6JTx+OH358Dfyj3LhkucRGQ8bZsOf/38Kk5l3x7wuqaBSdxd8S9xUYiaFsxEDdEI0K7rwLXb9/HlN4XIKyyHpqVtyNuUuLsiIiwAS+eEYeYj4+DizJm2iMg45TVq/OHYedwuq7F1KIPm5CTC0jmTsOGJR+Hu5mLrcIjIytQaLf6YehHfKFXD9vm0633Yj1Yr4CP1sHU4NIIwAUxERGTHKuuakJFThAvXS1BRq37Q21bs6oyxPp6YNyMYC2eF2nxI0eESJxEZp6s329+/voGrN++ZJYExkohEIviNlmDpnDAsj5rM4b2IRrCmZi3uqGpw/U45SsrrUVpRD22bDo2a3sOxSSVuELs6Y8LY0QgOGI0ZkwIwKdAXozzENoiciBxFR4cA5d0qpJ7Nw+2y6mFRrxOJRPCWukMRPgHfj5bxOZJohHv4+fTa7XKD9Sh7JJW4YeYjAVi1iCO3kG0wAUxERERERERERERERERE5CCskQDm2ERERERERERERERERERERA6CCWAiIiIiIiIiIiIiIiIiIgfBBDARERERERERERERERERkYNgApiIiIiIiIiIiIiIiIiIyEEwAUxERERERERERERERERE5CCYACYiIiIiIiIiIiIiIiIichBMABMREREREREREREREREROQgmgImIiIiIiIiIiIiIiIiIHAQTwEREREREREREREREREREDoIJYCIiIiIiIiIiIiIiIiIiB8EEMBERERERERERERERERGRg2ACmIiIiIiIiIiIiIiIiIjIQTABTERERERERERERERERETkIJgAJiIiIiIiIiIiIiIiIiJyEEwAExERERERERERERERERE5CCaAiYiIiIiIiIiIiIiIiIgcBBPA7IxxDQAAIABJREFUREREREREREREREREREQOgglgIiIiIiIiIiIiIiIiIiIHwQQwEREREREREREREREREZGDYAKYiIiIiIiIiIiIiIiIiMhBMAFMREREREREREREREREROQgmAAmIiIiIiIiIiIiIiIiInIQTAATERERERERERERERERETkIJoCJiIiIiIiIiIiIiIiIiBwEE8BERERERERERERERERERA6CCWAiIiIiIiIiIiIiIiIiIgfBBDARERERERERERERERERkYNgApiIiIiIiIiIiIiIiIiIyEEwAUxERERERERE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ZbA3NLNBgytERERERERERKbF52a7ACIiIiJzzuUgreGPuW8oQf87vUSvg6NhP00rjNkumcg8FyX44lk+LjZJnA/SezkJZfXs3+pCV5eIiIiIiIiIyPRQB7CIiIjIGIO8+1ong0NgLHFRt/dZnv6aUx1UItNg8EwXnZ+aUFSCa+Menn3Gj7NotkslIiIiIiIiIrJw/MatW7duzXYhREREREREREREREREREQWuhs3bhT8GNoDWERERERERERERERERERkgVAHsIiIiIiIiIiIiIiIiIjIAqEOYBERERERERERERERERGRBUIdwCIiIiIiIiIiIiIiIiIiC4Q6gEVEREREREREREREREREFgh1AIuIiIiIiIiIiIiIiIiILBDqABYRERERERERERERERERWSA+N9sFEBERERERERERERERERG5133729/O+bU/+tGPsv5OM4BFRERERERERERERERERGbZeJ26+bxOHcAiIiIiIiIiIiIiIiIiInPARJ27uXQSqwNYRERERERERERERERERGSOyNbJm+sMYXUAi4iIiIiIiIiIiIiIiIjMIaM7e3Pt/AV1AIuIiIiIiIiIiIiIiIiIzDmZTt98On8BfuPWrVu3ClEgERERERERERERERERERG548aNGwU/hmYAi4iIiIiIiIiIiIiIiIgsEOoAFhERERERERERERERERFZINQBLCIiIiIiIiIiIiIiIiKyQKgDWERERERERERERERERERkgVAHsIiIiIiIiIiIiIiIiIjIAqEOYBERERERERERERERERGRBUIdwCIiIiIiIiIiIiIiIiIiC8Si7373u9+d7UII8OsEkbeD9L731/T3/4KLn3ye8n99P5//p+v88i/f4qc//++pn1/5B0pdX+Kfz3Z5F6DkpZ/Q9Ze/4ov/5mF+e9H0vXau+du+/8aJyK958JGlFM12YURmyJV3fshP+v8fX6p8cMJ6n89rx5WM8pOuHn5lq+DhkgkCxd+Fef1YL7/6rd9lWelUDlp4Y85PPt9TRG7LJ5eYtrg0Q58711w79zpdPb/it353GROF2HxeKyIyc/6W0NETRG4+yCNLF3LEFsnBNDw7za37/RV+9sOf8IubX6LygUJc34X+/OmhtipI/q8Qwe6/Ihz5Bb+4+D/5h99x8SU1AC9Isx2DpvYcOD9iyvw3f8/zbNfv+eTmzZsFP8bnCn6EWZEkcuJ1LrCS39/oxnbX764Rfv0n/DJ5P1/5Qz8uY9Q7+wO8/j+GcW38fb7y2zNX4g/6erjwf0tZuc5HedEQ135dShGQOPszwh8totz7DVb+zjDXrhfx4MwV695yC4bNz8jpssvntXPNLRj+tYk52+WQBWz+xeDCGIZbJp/9euaPfOWdH3Lmf4/64W8uouhfOHjk37tZabdZvm9yZu97yr0sE0tG/Og3F2F8sZSHKjx4/m0pc344wnzOJe4h18+/TuDSTcof/0PW/qvZLo3MG8kEFyJ/zS9/dY2hzP3x80WUfmkla3/vEUo/P4Nl+bswr7/1S5KjfrzonxVz/8P/jjVfeZji+bgumNX3WmRQXPIQj/yeh0cW4qC0fxrGNPUUJ1Nw5Wf88Ezi7p8tMigqfpCVj/6HhXndyPxxr7dVXY/Q0/cBww+txb9qKfzdNRYvne1CzVFWsQxY9FulOB75Cm6XHdt8zG1ERArg/wMda5KMAiv+RAAAAABJRU5ErkJggg\u003d\u003d",
-                "mime_type": "image/png",
-                "name": "screenshots"
-              }
-            ],
-            "result": {
-              "duration": 1489000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1346000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the global trader page",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_is_on_the_global_trader_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1009000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user click on Seller Join Now  Button",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Seller_Join_Now_Button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 233000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click on Company Seller box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Company_Seller_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 120000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user type a Company Name \"emre\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"emre\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Name(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 148000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user type a Company  Mobile \"1111111115\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1111111115\"",
-                  "offset": 28
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Company_Mobile(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 137000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user type an Company Address \"kasfdl\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"kasfdl\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Company_Address(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 122000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user type a Name \"aaa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aaa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Name(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 207000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user type an Email \"abcdfe4@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"abcdfe4@gmail.com\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Email(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 140000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user type a Sub Domain \"dgfgfd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dgfgfd\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Sub_Domain(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 163000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user type a Mobile Number \"4211141111\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"4211141111\"",
-                  "offset": 26
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Mobile_Number(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 198000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user choose a Country",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Country()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 150000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user type a State \"sadf\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sadf\"",
-                  "offset": 18
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_State(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 135000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "user type a City \"aa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aa\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_City(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 115000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user type an Address \"dd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"dd\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Address(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 159000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user type an Postal Code \"12345\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12345\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_an_Postal_Code(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 177000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user choose a Categories",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_choose_a_Categories()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 127000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user type a Password \"12313\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12313\"",
-                  "offset": 21
-                }
-              ],
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_type_a_Password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1237000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "user click on Registration Box",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_click_on_Registration_Box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(text(),\u0027Thank you to join our team. You are Registered Suc\u0027)]\"}\n  (Session info: chrome\u003d86.0.4240.75)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027WINDOWSPC\u0027, ip: \u0027192.168.178.20\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8140bde8671a5818759703ff29f925bf\n*** Element info: {Using\u003dxpath, value\u003d//p[contains(text(),\u0027Thank you to join our team. You are Registered Suc\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully(Global_Trader_Create_An_Account.java:120)\r\n\tat ✽.user get message\"Thank you to join our team. You are Registered Successfully.\"(file:///C:/Users/Administrator/IdeaProjects/mycucumberframework3/src/test/resources/features/US1005_Create_an_Account_Global_Scenerio_Outline.feature:24)\r\n",
-              "duration": 15045000000,
-              "status": "failed"
-            },
-            "line": 24,
-            "name": "user get message\"Thank you to join our team. You are Registered Successfully.\"",
-            "match": {
-              "location": "stepdefinitions.Global_Trader_Create_An_Account.user_get_message_Thank_you_to_join_our_team_You_are_Registered_Successfully()"
-            },
+            "match": {},
             "keyword": "And "
           }
         ],
@@ -1366,7 +194,7 @@
     "description": "",
     "id": "us1005-create-an-account-global-parameters",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US1005_Create_an_Account_Global_Scenerio_Outline.feature",
+    "uri": "file:src/test/resources/features/US1005_Create_an_Account_Global_Parameters.feature",
     "tags": []
   }
 ]

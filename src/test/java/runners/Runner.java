@@ -18,8 +18,8 @@ import org.junit.runner.RunWith;
         //Path of the step definition folder
       //  tags = "@flowersearch",
         tags = "@hooks",
-        glue="stepdefinitions",
-        dryRun = false
+        glue="stepdefindaitions",
+        dryRun = true
        // dryRun = false means it runs the test cases and generate teh missing step definitions.
        // dryRun= true means it doesn't run the test cases but only generate the missing step definition.
 

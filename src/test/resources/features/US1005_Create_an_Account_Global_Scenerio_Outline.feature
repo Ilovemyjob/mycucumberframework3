@@ -1,10 +1,10 @@
 
 Feature:US1005_Create_an_Account_Global_Parameters
 
-  @hooks
+  ~@hooks
   Scenario Outline: TC_001_Testing_Create_an_Account_On_Global
     Given user is on the global trader page
-    And user click on Seller Join Now  Button
+    When user click on Seller Join Now  Button
     And user click on Company Seller box
     And user type a Company Name <string>
     And user type a Company  Mobile <string1>
@@ -21,7 +21,7 @@ Feature:US1005_Create_an_Account_Global_Parameters
     And user choose a Categories
     And user type a Password <string11>
     And user click on Registration Box
-    And user get message"Thank you to join our team. You are Registered Successfully."
+    Then user get message"Thank you to join our team. You are Registered Successfully."
     Examples:
       | string | string1      | string2  | string3 | string4          | string5  | string6      | string7 | string8 | string9 | string10 | string11 |
       | "emre" | "1111111115" | "kasfdl" | "aaa"   | "abcdeaa@gmail.com" | "dgfgfd" | "4211141111" | "sadf"  | "aa"    | "dd"    | "12345"  | "12313"  |

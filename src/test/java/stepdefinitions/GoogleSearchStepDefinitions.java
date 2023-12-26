@@ -5,11 +5,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.omg.PortableServer.THREAD_POLICY_ID;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import pages.DataTablePage;
 import pages.GooglePage;
 import utilities.ConfigReader;
 import utilities.Driver;
+
+import java.util.concurrent.TimeUnit;
 
 public class GoogleSearchStepDefinitions {
 
@@ -17,6 +21,9 @@ public class GoogleSearchStepDefinitions {
     @Given("user is on the google page")
     public void user_is_on_the_google_page() {
         Driver.getDriver().get(ConfigReader.getProperty("google_url"));
+        Driver.getDriver().findElement(By.xpath("(//div[@class='QS5gu sy4vM'])[2]")).click();
+        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
     @Given("user search for iphone")
     public void user_search_for_iphone() {
@@ -54,6 +61,6 @@ public class GoogleSearchStepDefinitions {
     public void verify_the_result_has(String string) {
         String pageTitle=Driver.getDriver().getTitle().toLowerCase();
         Assert.assertTrue(pageTitle.contains(string));
-        Assert.fail();// we do on purpose fail
+      //  Assert.fail();// we do on purpose fail
     }
 }
