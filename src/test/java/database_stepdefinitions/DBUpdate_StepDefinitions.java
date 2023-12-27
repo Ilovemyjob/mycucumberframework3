@@ -22,6 +22,7 @@ public class DBUpdate_StepDefinitions {
         DBUtils.executeQuery(query);
         //Skip teh first 3 lines. We should use rsultset to skip
         //resultSet=>Driver.getResult
+
         DBUtils.getResultset().next();// ==resultSet.next();
         DBUtils.getResultset().next();
         DBUtils.getResultset().next();
